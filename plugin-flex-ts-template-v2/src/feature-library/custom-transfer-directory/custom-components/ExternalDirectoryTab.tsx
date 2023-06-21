@@ -61,7 +61,7 @@ const ExternalDirectoryTab = (props: OwnProps) => {
       Actions.invokeAction('StartExternalWarmTransfer', {
         task: props.task,
         phoneNumber: entry.number,
-        callerId,
+        '+13127999417',
       });
     else if (transferOptions.mode === 'COLD') {
       let from;
